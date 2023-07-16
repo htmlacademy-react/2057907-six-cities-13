@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import AppMain from './Components/App/App';
+import App from './Components/App/App';
 
 const OFFERS_COUNT = 313;
 
@@ -10,6 +10,6 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <AppMain cardsCount={OFFERS_COUNT} />
+    <App cardsCount={OFFERS_COUNT} />
   </React.StrictMode>
 );
